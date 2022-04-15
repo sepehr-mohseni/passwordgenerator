@@ -92,7 +92,7 @@ export default function HomeParent() {
             color: "primary",
         },
         {
-            icon: "Generate",
+            icon: "Generate Password",
             action: generate,
             color: "secondary",
             disabled: checkGenerateDisable()

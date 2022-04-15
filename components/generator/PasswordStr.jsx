@@ -19,7 +19,7 @@ export default function PasswordStr({
                 elevation={5}
                 sx={{
                     p: 3,
-                    mb: 11,
+                    mb: 7,
                     wordWrap: "break-word",
                     maxWidth: "95vw",
                 }}
