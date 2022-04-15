@@ -1,7 +1,6 @@
 import { createTheme } from "@mui/material/styles"
 import { grey, blue, pink } from "@mui/material/colors"
 export const theme = createTheme({
-    direction: 'rtl',
     palette: {
         primary: {
             main: blue[600],
@@ -10,9 +9,9 @@ export const theme = createTheme({
             contrastText: grey[100],
         },
         secondary: {
-            main: purple[600],
-            light: purple[300],
-            dark: purple[900],
+            main: pink[600],
+            light: pink[300],
+            dark: pink[900],
             contrastText: grey[100],
         },
         text: {
