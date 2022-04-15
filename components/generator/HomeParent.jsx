@@ -14,6 +14,7 @@ import ActionButtons from './ActionButtons'
 import PasswordStr from './PasswordStr'
 import LengthSlider from './LengthSlider'
 import ConditionActions from './ConditionActions';
+import Footer from './Footer'
 export default function HomeParent() {
     const dispatch = useDispatch()
     const [openSnackBar, setOpenSnackBar] = useState(false)
@@ -143,11 +144,12 @@ export default function HomeParent() {
                         actionBtns={actionBtns}
                     />
             </Grid>
+            <Footer/>
             <Snackbar
                 open={openSnackBar}
                 autoHideDuration={4000}
                 onClose={closeAlertHandler}
-                message="Password Copied to Clipboard!"
+                message="Copied to Clipboard!"
             />
         </div>
 

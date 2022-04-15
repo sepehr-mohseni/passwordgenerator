@@ -12,8 +12,6 @@ export default class MyDocument extends Document {
             <Html lang='en' dir='ltr'>
                 <Head>
                     <link rel='shortcut icon' href='/favicon.ico' />
-                    <link rel='icon' type='image/png' href='/favicon.png' />
-                    <link rel='apple-touch-icon' href='/favicon.png' />
                 </Head>
                 <body>
                     <Main />

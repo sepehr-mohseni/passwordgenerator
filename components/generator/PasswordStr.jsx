@@ -8,7 +8,6 @@ export default function PasswordStr({
 }) {
     return (
         <div
-            onClick={copy}
             style={{
                 cursor: "pointer",
                 display: "flex",
@@ -24,6 +23,7 @@ export default function PasswordStr({
                     wordWrap: "break-word",
                     maxWidth: "95vw",
                 }}
+                onClick={copy}
             >
                 <Typography
                     align="left"
